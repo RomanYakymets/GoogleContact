@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.roma.testtask.ContactInfoActivity">
+
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/contact_info__toolbar"/>
+
+    <TextView
+        android:id="@+id/contact_info_firstname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:id="@+id/contact_info_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/contact_info__phone_number_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        />
+
+    <LinearLayout
+        android:id="@+id/contact_info__email_address_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        />
+
+</LinearLayout>

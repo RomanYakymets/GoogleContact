@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_items_group"
+        android:visible="false">
+        <item android:id="@+id/menu_log_out_btn"
+            android:title="Logout"
+            />
+        <item android:id="@+id/menu_sort_contacts_btn"
+            android:title="Sort contacts"
+            />
+        <item android:id="@+id/menu_get_contact_from_database_btn"
+            android:title="Contact from database"
+            />
+    </group>
+
+</menu>

@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "45444256362",
+    "project_id": "testtask-540f2"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45444256362:android:14b3ddf7e3fadeaa",
+        "android_client_info": {
+          "package_name": "com.example.roma.testtask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45444256362-fsa1p8st4ehj962oanvmmiikbn4uapmo.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "45444256362-6j6cuhrrts87h790u9g5vtnd73vgq5i0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roma.testtask",
+            "certificate_hash": "a7b99fe756f81409443d45bee3ba9f97272ee013"
+          }
+        },
+        {
+          "client_id": "45444256362-lme8ffu157a07op9hcgo5n1iunin5g5e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roma.testtask",
+            "certificate_hash": "1cf6958fbec15e9477e6b27c77b54e16e3d902c2"
+          }
+        },
+        {
+          "client_id": "45444256362-l7vvaqlo5d39rdar4lmj0ca27uvdg7qv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.roma.testtask",
+            "certificate_hash": "2b38a6d79569b8c28022e5c49a1dac5fa5680d34"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWrTeNs7JOtcAFawGU_DIe4Wl7mX3SV54"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

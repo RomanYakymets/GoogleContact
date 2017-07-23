@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TestTask</string>
+
+    <string name="title_text">Google Sign-In\nQuickstart</string>
+
+    <string name="clientID">45444256362-fsa1p8st4ehj962oanvmmiikbn4uapmo.apps.googleusercontent.com</string>
+    <string name="clientSecret">YtISG7DrHI6oX-qUK4d0l3Mx</string>
+
+    <string name="email_hint">Email</string>
+    <string name="phone_hint">Phone</string>
+
+    <string name="contextMenuDelete">Delete</string>
+    <string name="contextMenuEdit">Edit</string>
+
+    <string name="first_name_text_view">First name: </string>
+    <string name="last_name_text_view">Last name: </string>
+
+    <string name="phone_number_text_view">Phone number: </string>
+    <string name="email_address_text_view">Email address: </string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="save_contact">Save contact</string>
+
+
+</resources>
