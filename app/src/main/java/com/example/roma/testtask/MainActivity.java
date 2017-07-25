@@ -313,7 +313,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                         String lastName = "";
                         if(person.getNames() != null){
                             firstName = person.getNames().get(0).getGivenName();
-                            lastName = person.getNames().get(0).getGivenName();
+                            lastName = person.getNames().get(0).getFamilyName();
                         }
 
                         Contact contact = new Contact(person.getResourceName()

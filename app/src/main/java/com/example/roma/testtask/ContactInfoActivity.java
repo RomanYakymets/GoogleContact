@@ -35,9 +35,15 @@ public class ContactInfoActivity extends AppCompatActivity {
         getSupportActionBar().setTitle(contact.getFirstName());
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        String name = getResources().getString(R.string.first_name_text_view) + " " + contact.getFirstName();
+        String name = getResources().getString(R.string.first_name_text_view) ;
+        if (contact.getFirstName() != null){
+            name = name + " " + contact.getFirstName();
+        }
         mFirstName.setText(name);
-        String lastName = getResources().getString(R.string.last_name_text_view) + " " + contact.getLastName();
+        String lastName = getResources().getString(R.string.last_name_text_view);
+        if(contact.getLastName() != null){
+            lastName = lastName  + " " + contact.getLastName();
+        }
         mLastName.setText(lastName);
 
 
